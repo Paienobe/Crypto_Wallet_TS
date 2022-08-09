@@ -1,11 +1,12 @@
+import { ThunkAction } from '@reduxjs/toolkit'
 import { useState, useEffect } from 'react'
-import { useDispatch } from 'react-redux'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { getCoins } from './features/coinlist/coinListSlice'
 import Home from './pages/Home'
+import { useAppDispatch } from './store/store'
 
 function App() {
-  const dispatch = useDispatch()
+  const dispatch = useAppDispatch()
   useEffect(() => {
     dispatch(getCoins())
   }, [])

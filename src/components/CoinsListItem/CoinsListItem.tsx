@@ -9,7 +9,7 @@ const CoinsListItem = ({
   current_price,
   price_change_percentage_24h,
 }: ItemProps) => {
-  const numberWithCommas = (number) => {
+  const numberWithCommas = (number: number) => {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
   }
 
@@ -21,7 +21,7 @@ const CoinsListItem = ({
         </div>
         <div>
           <p className='item_name'>{name}</p>
-          <p>0.5 * ${numberWithCommas(current_price.toFixed(2))}</p>
+          <p>0.5 * ${numberWithCommas(Number(current_price.toFixed(2)))}</p>
         </div>
       </div>
       <div className='item_value_container'>
