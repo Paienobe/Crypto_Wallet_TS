@@ -1,0 +1,30 @@
+.list_item {
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item_details {
+  display: flex;
+  align-items: center;
+  width: 55%;
+}
+
+.item_image_container img {
+  width: 100%;
+}
+
+.item_image_container {
+  width: 20%;
+  margin-right: 1rem;
+}
+
+.item_value_container {
+  text-align: right;
+}
+
+.item_name,
+.item_value {
+  font-weight: 600;
+}

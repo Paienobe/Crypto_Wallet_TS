@@ -1,0 +1,40 @@
+.total_assets_container {
+  height: 32vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.total_assets_container h1 {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.asset_performance {
+  margin: 0.5rem 0;
+  color: green;
+}
+
+.asset_performance span {
+  color: black;
+  font-weight: 500;
+}
+
+.total_assets_button_container {
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.total_assets_button_container button {
+  padding: 1rem;
+  color: white;
+  width: 48%;
+  background-color: blue;
+  border: none;
+  border-radius: 2rem;
+}

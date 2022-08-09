@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.home {
+  position: relative;
+}
+
+.home_header {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  height: 10vh;
+}
+
+.home_wallet_selection {
+  display: flex;
+  align-items: center;
+}
+
+.home_wallet_selection p {
+  margin-right: 0.5rem;
+  font-weight: 600;
+}
+
+.coins_container {
+  height: 48vh;
+  overflow-y: auto;
+}
+
+.container_title {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+}
+
+.container_title p {
+  margin-right: 0.5rem;
+}
